@@ -1,0 +1,26 @@
+{
+  "name": "request-cache",
+  "version": "0.0.0-pre1",
+  "description": "A request cache wrapper for Supertest",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test",
+    "prepublish": "grunt"
+  },
+  "author": "Jack Stevens <jack@applyr.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "load-grunt-tasks": "^0.6.0",
+    "grunt-contrib-coffee": "^0.11.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "coffeelint": "^1.5.5",
+    "grunt-coffeelint": "0.0.13",
+    "grunt-mocha-test": "^0.11.0"
+  },
+  "dependencies": {
+    "MD5": "^1.2.1",
+    "chalk": "^0.5.1",
+    "supertest": "^0.13.0"
+  }
+}
